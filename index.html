@@ -4,83 +4,113 @@
   <title>Hello</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <!-- Material Design Bootstrap 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+  />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- MDB -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- MDB JS -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+  ></script>
+
+  <style>
+  p {font-size: smaller;}
+  a {font-size: smaller;}
+  </style>
   </head>
 <body>
+
+<br><br>
 
 <div class="container">
 	<div class="jumbotron">
   		<h2>Hi and welcome back to my cv site</h2>  
-  		<h5>If you're new here; welcome!</h5>
-  		<h5>I'm Will and I enjoy technology, data, and design</h5>
+  		<h5 class="fw-light">If you're new here; welcome! I'm Will and I enjoy technology, data, and design</h5>
   	</div>
 </div>
 
 <br><br>
 
+<div class="container" >
+  <h5 class="fw-light">Research</h5>
+  <hr>
+<div class="row row-cols-1 row-cols-md-3 g-4 ">
+<!-- <div class="col"> -->
 
-<div class="card" <!-- style="width: 18rem;" --> >
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Alexa App: News in slow french</h5>
-    <p class="card-text">An Alexa Skill to play the daily news in French for language learning. Say "Alexa, play slow french news!"</p>
-    <a href="https://github.com/whs2k/AlexaFrenchNews" class="btn btn-primary">Github Code</a>
-  </div>
+
+      <div class="card h-100 example " style="width: 18rem; height:18rem;">
+        <img class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" src="static/stockfries_logo_dark.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">stockfries.com</h5>
+          <p class="card-text">We pull quarterly Hedgefund 13-F filings from the <a href='https://www.sec.gov/edgar/searchedgar/companysearch.html'> SEC;</a> connecting you with the world's most expensive tips</p>
+
+
+        </div>
+        <div class="card-footer bg-transparent">          
+          <a href="http://stockfries.com/" class="btn btn-primary">site</a>
+          <a href="https://github.com/whs2k/stockFries" class="btn btn-primary">Code</a>
+        </div>
+      </div>
+
+      <div class="card h-100 z-depth-2" style="width: 18rem; height:18rem; ">
+        <img class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" src="static/Alexa-French.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Alexa: Slow French News</h5>
+          <p class="card-text">An Alexa Skill to play the daily news in French for language learning. Say "Alexa, play slow french news!"</p>
+          
+          
+        </div>
+        <div class="card-footer bg-transparent">          
+          <a href="https://github.com/whs2k/AlexaFrenchNews" class="btn btn-primary">Code</a>
+        </div>
+      </div>
+
+      <div class="card h-100" style="width: 18rem; height:18rem;">
+        <img class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" src="static/dogifai_test.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">dogifai.com</h5>
+          <p class="card-text">Inspired by Google's <a href="https://artsandculture.google.com/camera/selfie">art selfie</a>, Dogifai uses DenseNet CV to determine which Dog you look like!</p>
+        </div>
+        <div class="card-footer bg-transparent">          
+          <a href="http://dogifai.com/" class="btn btn-primary">site</a>
+          <a href="https://github.com/whs2k/ImageSimilarity" class="btn btn-primary">code</a>
+        </div>
+      </div>
+
+
+
+  <!-- </div> -->
+</div>
+
+<br><br>
+<h5>Education</h5>
+<hr>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
 </div>
 
 
-<div class="container">
-  <h3>
-  	<span class="glyphicon glyphicon-briefcase"></span> 
-  </h3>  
-  	<hr class="style8">
-  	<h4><small>TESTING News in slow french Alexa App</small>
-  <h5 class="text-muted"><a href="https://github.com/whs2k/AlexaFrenchNews">https://github.com/whs2k/AlexaFrenchNews"</a></h5>
-  <br>
-  <h4><small>stockfries.com</small></h3>
-  <h5 class="text-muted"><a href="http://stockfries.com">http://www.stockfries.com/</a></h5>
-  <br>
-  <h4><small>dogifai.com</small></h4>
-  <h5 class="text-muted"><a href="http://www.dogifai.com">http://www.dogifai.com/</a></h5>>
 </div>
-<br>
 
-<div class="container">
-  <h3><span class="glyphicon glyphicon-home"></span></h3>  
-    <hr class="style8">
-    <h4><small>Medium</small></h4>
-  <h5 class="text-muted"><a href="https://medium.com/@willsolomon/query-aws-redshift-w-python-41380ab06bd">medium.com/@willsolomon/</a></h5>
-  <h4>Link 1</h4>
-  <h4>Link 2</h4>
-</div>
-<br>
-
-<div class="container">
-  <h3><span class="glyphicon glyphicon-education"></span></h3>  
-  <hr class="style8">
-
-  <h4><small>2015 - 2017</small> Masters of Business Administration</h4>
-  <h5 class="text-muted"></code> The Johns Hopkins University</h5>
-  <br>
-  <h4><small>2015 - 2017 </small>Masters of Design Leadership</h4>
-  <h5 class="text-muted"></code> Maryland Institute College of Art</h5>
-  <br>
-  <h4><small>2005 - 2009 </small> Bachelor of Science: Mechanical Engineering</h4>
-  <h5 class="text-muted"></code> The University of Virginia</h5>
-</div>
-<br>
-
-
-<div class="container">
-  <h3>Other Intersting Things</h3>  
-  <h4>Link 1</h4>
-  <h4>Link 2</h4>
-</div>
-<br>
 
 </body>
 </html>
